@@ -48,9 +48,9 @@ class UserModel extends IndexModel
         if (!empty(self::__find(['userName'=> $user['userName']]))){
             throw new RouteException("Username already taken", 400);
         }
-        $user['id'] = Ops::randomString(18);
+        $user['id'] = uniqid("n3_💾💾💾",true);
         self::$store->add([
-            'id' => $user['id'],
+            '_id' => $user['id'],
             'userName' => $user['userName'],
             'password' => Ops::encrypt($user['password'], $user['password'])
         ])->save();

@@ -21,8 +21,9 @@ class Users extends Demo{
      * @param null $id
      * @param array $params
      * @return array
+     * @throws \Neoan3\Core\RouteException
      */
-    function getUsers(array $params=[]): array
+    function getUsers($id=null, array $params=[]): array
     {
         $jwt = Stateless::restrict();
         $users = [];

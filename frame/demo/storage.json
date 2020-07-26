@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "userName": "test-user",
+      "password": "NOX167ynf3L9HrvP2\/AwKR43mncfqQ==",
+      "id": "06416b2a0346ca04fd"
+    },
+    {
+      "userName": "test-user",
+      "password": "RRziGYyqzYI2LNr+DhQS0t8cgX6x2Q==",
+      "id": "3de20bead468feb4e7"
+    },
+    {
+      "id": "42553d48b9536ac13b",
+      "userName": "test-user2",
+      "password": "rkWeEnu6o6FmXG2nsxda8ey1mk1hyg=="
+    }
+  ]
+}

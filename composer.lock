@@ -1,0 +1,427 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "9ffa126db15808f2b3dc91dd7ac01508",
+    "packages": [
+        {
+            "name": "firebase/php-jwt",
+            "version": "v5.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/firebase/php-jwt.git",
+                "reference": "feb0e820b8436873675fd3aca04f3728eb2185cb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/feb0e820b8436873675fd3aca04f3728eb2185cb",
+                "reference": "feb0e820b8436873675fd3aca04f3728eb2185cb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": ">=4.8 <=9"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Firebase\\JWT\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Neuman Vong",
+                    "email": "neuman+pear@twilio.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Anant Narayanan",
+                    "email": "anant@php.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A simple library to encode and decode JSON Web Tokens (JWT) in PHP. Should conform to the current spec.",
+            "homepage": "https://github.com/firebase/php-jwt",
+            "keywords": [
+                "jwt",
+                "php"
+            ],
+            "time": "2020-03-25T18:49:23+00:00"
+        },
+        {
+            "name": "mnsami/composer-custom-directory-installer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mnsami/composer-custom-directory-installer.git",
+                "reference": "a4f6eec8a2d15be977561f22f4457e805d98108d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mnsami/composer-custom-directory-installer/zipball/a4f6eec8a2d15be977561f22f4457e805d98108d",
+                "reference": "a4f6eec8a2d15be977561f22f4457e805d98108d",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0",
+                "php": ">=5.3"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": [
+                    "Composer\\CustomDirectoryInstaller\\LibraryPlugin",
+                    "Composer\\CustomDirectoryInstaller\\PearPlugin",
+                    "Composer\\CustomDirectoryInstaller\\PluginPlugin"
+                ],
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Composer\\CustomDirectoryInstaller": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mina Nabil Sami",
+                    "email": "mina.nsami@gmail.com"
+                }
+            ],
+            "description": "A composer plugin, to help install packages of different types in custom paths.",
+            "keywords": [
+                "composer",
+                "composer-installer",
+                "composer-plugin"
+            ],
+            "time": "2020-06-12T10:15:35+00:00"
+        },
+        {
+            "name": "neoan3-apps/db",
+            "version": "0.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sroehrl/neoan3-db.git",
+                "reference": "b2859d08f44b20f8174fabfba51a4e8becec70f0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sroehrl/neoan3-db/zipball/b2859d08f44b20f8174fabfba51a4e8becec70f0",
+                "reference": "b2859d08f44b20f8174fabfba51a4e8becec70f0",
+                "shasum": ""
+            },
+            "require": {
+                "ext-ctype": "*",
+                "ext-mysqli": "*",
+                "php": "^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Neoan3\\Apps\\": "./"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stefan Roehrl",
+                    "homepage": "http://neoan.us"
+                }
+            ],
+            "description": "neoan3 mysqli class",
+            "time": "2019-09-10T17:54:43+00:00"
+        },
+        {
+            "name": "neoan3-apps/file-away",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sroehrl/fileAway.git",
+                "reference": "b03faea75045dcdb3ed5b0dc4d6912fcebdfb2df"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sroehrl/fileAway/zipball/b03faea75045dcdb3ed5b0dc4d6912fcebdfb2df",
+                "reference": "b03faea75045dcdb3ed5b0dc4d6912fcebdfb2df",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": "^7.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "9.2.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Neoan3\\Apps\\": "./"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "neoan",
+                    "homepage": "https://neoan.us"
+                }
+            ],
+            "description": "dead-simple file \"database\" for testing, mocking, click-dummies & POCs",
+            "time": "2020-07-25T01:13:40+00:00"
+        },
+        {
+            "name": "neoan3-apps/jwt",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sroehrl/neoan3-jwt.git",
+                "reference": "aacaabfd46bdb209705fa279fd660f5baf18a3ae"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sroehrl/neoan3-jwt/zipball/aacaabfd46bdb209705fa279fd660f5baf18a3ae",
+                "reference": "aacaabfd46bdb209705fa279fd660f5baf18a3ae",
+                "shasum": ""
+            },
+            "require": {
+                "firebase/php-jwt": "^5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Neoan3\\Apps\\": "./"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stefan Roehrl",
+                    "homepage": "http://neoan.us"
+                }
+            ],
+            "description": "neoan3 wrapper for JSON WEB TOKEN using Firebase",
+            "time": "2020-01-22T17:26:15+00:00"
+        },
+        {
+            "name": "neoan3-apps/ops",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sroehrl/neoan3-ops.git",
+                "reference": "3b8f7a49ae499becaf42972fefeaca8361910f97"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sroehrl/neoan3-ops/zipball/3b8f7a49ae499becaf42972fefeaca8361910f97",
+                "reference": "3b8f7a49ae499becaf42972fefeaca8361910f97",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "ext-openssl": "*",
+                "neoan3-apps/template": "^1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Neoan3\\Apps\\": "./"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "neoan3 common string operations helper class",
+            "time": "2020-02-02T19:14:40+00:00"
+        },
+        {
+            "name": "neoan3-apps/stateless",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sroehrl/neoan3-stateless.git",
+                "reference": "334d53c11957a2c322250d998cbe7aa2f1bdfc4c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sroehrl/neoan3-stateless/zipball/334d53c11957a2c322250d998cbe7aa2f1bdfc4c",
+                "reference": "334d53c11957a2c322250d998cbe7aa2f1bdfc4c",
+                "shasum": ""
+            },
+            "require": {
+                "neoan3-apps/jwt": "^1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Neoan3\\Apps\\": "./"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "neoan",
+                    "email": "neoan@neoan.us"
+                }
+            ],
+            "description": "stateless authentication / verification for neoan3",
+            "time": "2020-01-22T17:31:24+00:00"
+        },
+        {
+            "name": "neoan3-apps/template",
+            "version": "1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sroehrl/neoan3-template.git",
+                "reference": "f03c7cb853dbcc9019caa26ad785ff1c73f64ba6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sroehrl/neoan3-template/zipball/f03c7cb853dbcc9019caa26ad785ff1c73f64ba6",
+                "reference": "f03c7cb853dbcc9019caa26ad785ff1c73f64ba6",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-json": "*",
+                "ext-libxml": "*",
+                "ext-mbstring": "*",
+                "ext-openssl": "*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Neoan3\\Apps\\": "./"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "neoan3 minimal template engine",
+            "time": "2020-05-08T02:59:29+00:00"
+        },
+        {
+            "name": "neoan3-apps/transformer",
+            "version": "v1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sroehrl/neoan3-transformer.git",
+                "reference": "49b825a47159887f17841f9927424a3c3acd419d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sroehrl/neoan3-transformer/zipball/49b825a47159887f17841f9927424a3c3acd419d",
+                "reference": "49b825a47159887f17841f9927424a3c3acd419d",
+                "shasum": ""
+            },
+            "require": {
+                "neoan3-apps/db": "^0.2.1",
+                "neoan3-model/index": "^0.0.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Neoan3\\Apps\\": "./"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stefan Roehrl",
+                    "email": "neoan@neoan.us"
+                }
+            ],
+            "description": "Model abstraction utilizing neoan3's model transformers",
+            "time": "2019-09-28T00:28:18+00:00"
+        },
+        {
+            "name": "neoan3-model/index",
+            "version": "v0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sroehrl/neoan3-indexModel.git",
+                "reference": "3d432ebfd56cbbe794a9f6a6fc912b173d496acf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sroehrl/neoan3-indexModel/zipball/3d432ebfd56cbbe794a9f6a6fc912b173d496acf",
+                "reference": "3d432ebfd56cbbe794a9f6a6fc912b173d496acf",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "mnsami/composer-custom-directory-installer": "1.1.*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.4@dev"
+            },
+            "type": "library",
+            "extra": {
+                "installer-paths": {
+                    "./frame/{$name}": [],
+                    "./model/{$name}": [],
+                    "./component/{$name}": []
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "time": "2019-09-13T23:01:22+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "neoan3-apps/file-away": 20,
+        "neoan3-apps/stateless": 20,
+        "neoan3-apps/ops": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^7.4",
+        "ext-json": "*"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}

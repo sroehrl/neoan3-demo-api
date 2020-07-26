@@ -1,0 +1,20 @@
+{
+    "name": "neoan3-model/index",
+    "description": "",
+    "minimum-stability": "dev",
+    "require": {
+        "mnsami/composer-custom-directory-installer": "1.1.*",
+        "ext-json": "*"
+    },
+    "license": "MIT",
+    "extra": {
+        "installer-paths": {
+            "./frame/{$name}": [],
+            "./model/{$name}": [],
+            "./component/{$name}": []
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.4@dev"
+    }
+}

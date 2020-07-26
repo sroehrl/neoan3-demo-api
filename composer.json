@@ -15,6 +15,7 @@
         "neoan3-apps/stateless": "dev-master",
         "neoan3-apps/ops": "dev-master"
     },
+
     "license": "MIT",
     "authors": [
         {

@@ -7,9 +7,8 @@ Quick & dirty api scaffolding as a result of a [twitch.tv/neoan3](https://twitch
 **NOTE:** requires [neoan3-cli](https://github.com/neoan3/cli)
 to be globally available. 
 
-1. Clone this repo
-2. `composer update`
-3. `neoan3 develop`
+1. `composer create-project sroehrl/scaffold-api`
+2. `neoan3 develop`
 
 That's it, your project should run.
 

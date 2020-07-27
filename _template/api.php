@@ -3,7 +3,7 @@
 
 namespace Neoan3\Components;
 
-
+use Neoan3\Frame\Demo;
 use Neoan3\Apps\Stateless;
 use Neoan3\Model\{{name.pascal}}Model;
 
@@ -14,7 +14,7 @@ use Neoan3\Model\{{name.pascal}}Model;
  * @method static create(array $condition=[])
  */
 
-class {{name.pascal}} extends \Neoan3\Model\IndexModel
+class {{name.pascal}} extends Demo
 {
     /**
      * GET: api.v1/{{name.kebab}}

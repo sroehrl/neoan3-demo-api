@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9ffa126db15808f2b3dc91dd7ac01508",
+    "content-hash": "a73a7f4032da9aa2886826465becca65",
     "packages": [
         {
             "name": "firebase/php-jwt",
@@ -58,16 +58,16 @@
         },
         {
             "name": "mnsami/composer-custom-directory-installer",
-            "version": "dev-master",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mnsami/composer-custom-directory-installer.git",
-                "reference": "a4f6eec8a2d15be977561f22f4457e805d98108d"
+                "reference": "8cc82e0c5801cc3bf53ba452afdcaa5c6ff645a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mnsami/composer-custom-directory-installer/zipball/a4f6eec8a2d15be977561f22f4457e805d98108d",
-                "reference": "a4f6eec8a2d15be977561f22f4457e805d98108d",
+                "url": "https://api.github.com/repos/mnsami/composer-custom-directory-installer/zipball/8cc82e0c5801cc3bf53ba452afdcaa5c6ff645a5",
+                "reference": "8cc82e0c5801cc3bf53ba452afdcaa5c6ff645a5",
                 "shasum": ""
             },
             "require": {
@@ -106,7 +106,7 @@
                 "composer-installer",
                 "composer-plugin"
             ],
-            "time": "2020-06-12T10:15:35+00:00"
+            "time": "2016-05-25T08:26:02+00:00"
         },
         {
             "name": "neoan3-apps/db",
@@ -148,7 +148,7 @@
         },
         {
             "name": "neoan3-apps/file-away",
-            "version": "dev-master",
+            "version": "v1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sroehrl/fileAway.git",
@@ -224,7 +224,7 @@
         },
         {
             "name": "neoan3-apps/ops",
-            "version": "dev-master",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sroehrl/neoan3-ops.git",
@@ -261,16 +261,16 @@
         },
         {
             "name": "neoan3-apps/stateless",
-            "version": "dev-master",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sroehrl/neoan3-stateless.git",
-                "reference": "334d53c11957a2c322250d998cbe7aa2f1bdfc4c"
+                "reference": "fe111fc3666c8c6d0d313d1619a4cdf8114859e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sroehrl/neoan3-stateless/zipball/334d53c11957a2c322250d998cbe7aa2f1bdfc4c",
-                "reference": "334d53c11957a2c322250d998cbe7aa2f1bdfc4c",
+                "url": "https://api.github.com/repos/sroehrl/neoan3-stateless/zipball/fe111fc3666c8c6d0d313d1619a4cdf8114859e1",
+                "reference": "fe111fc3666c8c6d0d313d1619a4cdf8114859e1",
                 "shasum": ""
             },
             "require": {
@@ -293,7 +293,7 @@
                 }
             ],
             "description": "stateless authentication / verification for neoan3",
-            "time": "2020-01-22T17:31:24+00:00"
+            "time": "2020-07-27T15:02:02+00:00"
         },
         {
             "name": "neoan3-apps/template",
@@ -410,12 +410,8 @@
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "dev",
-    "stability-flags": {
-        "neoan3-apps/file-away": 20,
-        "neoan3-apps/stateless": 20,
-        "neoan3-apps/ops": 20
-    },
+    "minimum-stability": "stable",
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

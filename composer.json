@@ -9,9 +9,9 @@
         "neoan3-apps/db": "^0.2.1",
         "neoan3-model/index": "^0.0.1",
         "neoan3-apps/transformer": "^1",
-        "neoan3-apps/file-away": "^1.0.*",
-        "neoan3-apps/stateless": "^1.0.*",
-        "neoan3-apps/ops": "^2.0.*"
+        "neoan3-apps/file-away": "1.0.0",
+        "neoan3-apps/stateless": "1.0.*",
+        "neoan3-apps/ops": "2.0.*"
     },
 
     "license": "MIT",

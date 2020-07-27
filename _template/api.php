@@ -50,4 +50,17 @@ class {{name.pascal}} extends \Neoan3\Model\IndexModel
         Stateless::restrict();
         return  {{name.pascal}}Model::create($body);
     }
+
+    /**
+     * PUT: api.v1/{{name.kebab}}
+     * @param array $body
+     * @param string $id
+     * @return array
+     * @throws \Neoan3\Core\RouteException
+     */
+    function put{{name.pascal}}($id=null, array $body=[]): array
+    {
+        Stateless::restrict();
+        return  {{name.pascal}}Model::update($id, $body);
+    }
 }

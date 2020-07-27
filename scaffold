@@ -1,0 +1,10 @@
+<?php
+
+if(isset($argv[1])){
+    exec('neoan3 new model '. $argv[1]);
+    exec('neoan3 new component '. $argv[1]. ' -t:api -f:demo');
+
+
+} else {
+    echo "use: php scaffold <endpointName>";
+}

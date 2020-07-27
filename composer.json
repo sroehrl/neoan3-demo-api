@@ -1,8 +1,6 @@
 {
     "name": "sroehrl/scaffold-api",
-    "version": "2.0.0",
     "description": "the efficient PHP framework",
-    "minimum-stability": "dev",
     "require": {
         "php": "^7.4",
         "ext-json": "*",

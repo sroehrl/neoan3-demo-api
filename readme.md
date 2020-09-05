@@ -1,10 +1,23 @@
-# neoan3 PHP api demo
+# neoan3 PHP api scaffolding
 
 Quick & dirty api scaffolding as a result of a [twitch.tv/neoan3](https://twitch.tv/neoan3) session
 
+
+
+### What is this?
+Create your backend in seconds and add your endpoints via command line. You **don't** need a database,
+this tool ships with a file-based database for your convenience. However, you can easily add a database at any point.
+
+Out of the box, you have
+
+- user registration
+- user login/authentication
+- JWT / stateless authentication endpoints 
+- development server
+
 ## Installation
 
-**NOTE:** requires [neoan3-cli](https://github.com/neoan3/cli)
+**NOTE:** requires [neoan3-cli](https://github.com/neoan3/cli), PHP & composer
 to be globally available. 
 
 1. `composer create-project sroehrl/scaffold-api`
@@ -32,7 +45,7 @@ _To register_
 {
   "userName": "name82",
   "password": "123456",
-  ... // you can add whatever properties you like
+  "whatever": "any-key-value-pair"
 }
 ```
 _response format:_

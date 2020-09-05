@@ -46,7 +46,7 @@ class Users extends Demo{
     function postUsers($auth=false, array $body=[]): array
     {
         $user = $auth ? UserModel::login($body) : UserModel::register($body);
-        $token = Stateless::assign($user['id'], ['read', 'write']);
+        $token = Stateless::assign($user['_id'], ['read', 'write']);
         return [
             'token' => $token,
             'user' => $user

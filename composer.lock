@@ -297,16 +297,16 @@
         },
         {
             "name": "neoan3-apps/template",
-            "version": "1.0.5",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sroehrl/neoan3-template.git",
-                "reference": "f03c7cb853dbcc9019caa26ad785ff1c73f64ba6"
+                "reference": "47269808fac28354fa20c77bec29919967cc4830"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sroehrl/neoan3-template/zipball/f03c7cb853dbcc9019caa26ad785ff1c73f64ba6",
-                "reference": "f03c7cb853dbcc9019caa26ad785ff1c73f64ba6",
+                "url": "https://api.github.com/repos/sroehrl/neoan3-template/zipball/47269808fac28354fa20c77bec29919967cc4830",
+                "reference": "47269808fac28354fa20c77bec29919967cc4830",
                 "shasum": ""
             },
             "require": {
@@ -317,7 +317,7 @@
                 "ext-openssl": "*"
             },
             "require-dev": {
-                "phpunit/phpunit": "^8.3"
+                "phpunit/phpunit": "^9.5"
             },
             "type": "library",
             "autoload": {
@@ -330,7 +330,7 @@
                 "MIT"
             ],
             "description": "neoan3 minimal template engine",
-            "time": "2020-05-08T02:59:29+00:00"
+            "time": "2021-10-21T23:48:25+00:00"
         },
         {
             "name": "neoan3-apps/transformer",
